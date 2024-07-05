@@ -21,9 +21,5 @@ jobs:
     - uses: pguyot/arm-runner-action@v2
       with:
         commands: |
-            commands to run tests
-    - name: test
-      run: |
-        echo "start"
-        lscpu
+            lscpu
 
